@@ -17,11 +17,7 @@ namespace PDVSystem.Componentes.PDV
         public ucPDVProdutos()
         {
             InitializeComponent();
-            this.btnRefeicao.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\soup.png"), new Size(20, 20)));
-            this.btnBebidas.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\glass.png"), new Size(20, 20)));
-            this.btnLanches.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\burger.png"), new Size(20, 20)));
-            this.btnSobremesas.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\icecream.png"), new Size(20, 20)));
-            this.btnCombos.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\burger_soda_black.png"), new Size(20, 20)));
+            
         }
 
         private void btnPesquisar_Click(object sender, EventArgs e)
@@ -66,6 +62,15 @@ namespace PDVSystem.Componentes.PDV
         public void ItemProduto_Click(Object? sender, Produto e)
         {
 
+        }
+
+        private void ucPDVProdutos_Load(object sender, EventArgs e)
+        {
+            this.btnRefeicao.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\soup.png"), new Size(20, 20)));
+            this.btnBebidas.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\glass.png"), new Size(20, 20)));
+            this.btnLanches.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\burger.png"), new Size(20, 20)));
+            this.btnSobremesas.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\icecream.png"), new Size(20, 20)));
+            this.btnCombos.Image = (Image)(new Bitmap(Image.FromFile(Application.StartupPath + "Recursos\\burger_soda_black.png"), new Size(20, 20)));
         }
     }
 }

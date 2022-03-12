@@ -159,6 +159,7 @@
             this.Controls.Add(this.btnRefeicao);
             this.Name = "ucPDVProdutos";
             this.Size = new System.Drawing.Size(536, 476);
+            this.Load += new System.EventHandler(this.ucPDVProdutos_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
