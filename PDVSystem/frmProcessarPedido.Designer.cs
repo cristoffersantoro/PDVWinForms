@@ -79,6 +79,7 @@
             this.btnFechar.TabIndex = 12;
             this.btnFechar.Text = "Fechar Janela";
             this.btnFechar.UseVisualStyleBackColor = false;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // frmProcessarPedido
             // 
@@ -90,7 +91,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Name = "frmProcessarPedido";
-            this.Text = "frmProcessarPedido";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "FrmProcessarPedido";
             this.ResumeLayout(false);
 
         }

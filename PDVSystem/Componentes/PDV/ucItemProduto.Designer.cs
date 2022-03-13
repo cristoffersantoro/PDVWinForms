@@ -1,6 +1,6 @@
 ﻿namespace PDVSystem.Componentes.PDV
 {
-    partial class ucItemProduto
+    partial class UcItemProduto
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -51,7 +51,7 @@
             // 
             // btnAdicionarProduto
             // 
-            this.btnAdicionarProduto.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnAdicionarProduto.BackColor = System.Drawing.Color.LightGreen;
             this.btnAdicionarProduto.FlatAppearance.BorderSize = 0;
             this.btnAdicionarProduto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAdicionarProduto.ForeColor = System.Drawing.Color.Black;
@@ -61,6 +61,7 @@
             this.btnAdicionarProduto.TabIndex = 9;
             this.btnAdicionarProduto.Text = "Adicionar Produto";
             this.btnAdicionarProduto.UseVisualStyleBackColor = false;
+            this.btnAdicionarProduto.Click += new System.EventHandler(this.btnAdicionarProduto_Click);
             // 
             // ptbImagemProduto
             // 
@@ -88,16 +89,16 @@
             this.lblPrecoProduto.TabIndex = 12;
             this.lblPrecoProduto.Text = "R$ 200,00";
             // 
-            // ucItemProduto
+            // UcItemProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.lblPrecoProduto);
             this.Controls.Add(this.lblNomeProduto);
             this.Controls.Add(this.ptbImagemProduto);
-            this.Controls.Add(this.btnIndisponivel);
             this.Controls.Add(this.btnAdicionarProduto);
-            this.Name = "ucItemProduto";
+            this.Controls.Add(this.btnIndisponivel);
+            this.Name = "UcItemProduto";
             this.Size = new System.Drawing.Size(227, 121);
             this.Load += new System.EventHandler(this.ucItemProduto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptbImagemProduto)).EndInit();

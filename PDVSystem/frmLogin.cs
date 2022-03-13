@@ -1,15 +1,15 @@
 namespace PDVSystem
 {
-    public partial class frmLogin : Form
+    public partial class FrmLogin : Form
     {
-        public frmLogin()
+        public FrmLogin()
         {
             InitializeComponent();
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            new frmPrincipal().Show();
+            new FrmPrincipal().Show();
             this.Hide();
         }
     }

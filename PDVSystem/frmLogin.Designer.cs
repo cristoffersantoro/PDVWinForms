@@ -1,6 +1,6 @@
 ﻿namespace PDVSystem
 {
-    partial class frmLogin
+    partial class FrmLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -83,7 +83,7 @@
             this.btnEntrar.UseVisualStyleBackColor = false;
             this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
-            // frmLogin
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -93,7 +93,7 @@
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.lblUsuario);
-            this.Name = "frmLogin";
+            this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.ResumeLayout(false);

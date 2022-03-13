@@ -10,16 +10,23 @@ using System.Windows.Forms;
 
 namespace PDVSystem.Componentes.PDV
 {
-    public partial class ucPDVPedidoCliente : UserControl
+    public partial class UcPdvPedidoCliente : UserControl
     {
-        public ucPDVPedidoCliente()
+        public UcPdvPedidoCliente()
         {
             InitializeComponent();
+            this.panel1.BackColor = SystemColors.ButtonFace;
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnProcessarPedido_Click(object sender, EventArgs e)
+        {
+            var frmProcessarPedido = new frmProcessarPedido();
+            frmProcessarPedido.ShowDialog();
         }
     }
 }

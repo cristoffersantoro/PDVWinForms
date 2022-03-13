@@ -1,6 +1,6 @@
 ﻿namespace PDVSystem.Componentes.PDV
 {
-    partial class ucPDVPedidoCliente
+    partial class UcPdvPedidoCliente
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -30,12 +30,14 @@
         {
             this.lblPedidoCliente = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.flwPedidoCliente = new System.Windows.Forms.FlowLayoutPanel();
             this.btnLimparPedido = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnProcessarPedido = new System.Windows.Forms.Button();
             this.lblPagamento = new System.Windows.Forms.Label();
             this.lblValorTotal = new System.Windows.Forms.Label();
             this.nmcValorPagamento = new System.Windows.Forms.NumericUpDown();
+            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmcValorPagamento)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,10 +54,20 @@
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.flwPedidoCliente);
             this.panel1.Location = new System.Drawing.Point(35, 81);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(465, 170);
             this.panel1.TabIndex = 2;
+            // 
+            // flwPedidoCliente
+            // 
+            this.flwPedidoCliente.AutoSize = true;
+            this.flwPedidoCliente.Location = new System.Drawing.Point(-1, -1);
+            this.flwPedidoCliente.MaximumSize = new System.Drawing.Size(460, 0);
+            this.flwPedidoCliente.Name = "flwPedidoCliente";
+            this.flwPedidoCliente.Size = new System.Drawing.Size(460, 0);
+            this.flwPedidoCliente.TabIndex = 0;
             // 
             // btnLimparPedido
             // 
@@ -92,6 +104,7 @@
             this.btnProcessarPedido.TabIndex = 7;
             this.btnProcessarPedido.Text = "Processar Pedido";
             this.btnProcessarPedido.UseVisualStyleBackColor = false;
+            this.btnProcessarPedido.Click += new System.EventHandler(this.btnProcessarPedido_Click);
             // 
             // lblPagamento
             // 
@@ -121,7 +134,7 @@
             this.nmcValorPagamento.Size = new System.Drawing.Size(82, 29);
             this.nmcValorPagamento.TabIndex = 10;
             // 
-            // ucPDVPedidoCliente
+            // UcPdvPedidoCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -133,8 +146,10 @@
             this.Controls.Add(this.btnLimparPedido);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblPedidoCliente);
-            this.Name = "ucPDVPedidoCliente";
+            this.Name = "UcPdvPedidoCliente";
             this.Size = new System.Drawing.Size(536, 476);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmcValorPagamento)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -151,5 +166,6 @@
         private Label lblPagamento;
         private Label lblValorTotal;
         private NumericUpDown nmcValorPagamento;
+        private FlowLayoutPanel flwPedidoCliente;
     }
 }

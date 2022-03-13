@@ -1,6 +1,6 @@
 ﻿namespace PDVSystem.Componentes.PDV
 {
-    partial class ucPDVProdutos
+    partial class UcPdvProdutos
     {
         /// <summary> 
         /// Variável de designer necessária.
@@ -145,7 +145,7 @@
             this.btnRefeicao.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnRefeicao.UseVisualStyleBackColor = false;
             // 
-            // ucPDVProdutos
+            // UcPdvProdutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -157,7 +157,7 @@
             this.Controls.Add(this.btnLanches);
             this.Controls.Add(this.btnBebidas);
             this.Controls.Add(this.btnRefeicao);
-            this.Name = "ucPDVProdutos";
+            this.Name = "UcPdvProdutos";
             this.Size = new System.Drawing.Size(536, 476);
             this.Load += new System.EventHandler(this.ucPDVProdutos_Load);
             this.panel1.ResumeLayout(false);

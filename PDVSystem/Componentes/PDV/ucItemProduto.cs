@@ -11,12 +11,12 @@ using System.Windows.Forms;
 
 namespace PDVSystem.Componentes.PDV
 {
-    public partial class ucItemProduto : UserControl
+    public partial class UcItemProduto : UserControl
     {
         public event EventHandler<Produto>? BotaoAdicionarProdutoClick;
 
         private readonly Produto produto;
-        public ucItemProduto(Produto produto)
+        public UcItemProduto(Produto produto)
         {
             InitializeComponent();
             this.produto = produto;
@@ -26,12 +26,14 @@ namespace PDVSystem.Componentes.PDV
         {
             lblNomeProduto.Text = produto.Nome;
             lblPrecoProduto.Text = $"R$ {produto.Preco}";
+            btnIndisponivel.Visible = false;
             ptbImagemProduto.ImageLocation = produto.Imagem;
+            this.BackColor = SystemColors.Control;
         }
 
-        private void BotaoAdicionarProduto_Click(Object sender, EventArgs e)
+        private void btnAdicionarProduto_Click(object sender, EventArgs e)
         {
-            if(BotaoAdicionarProdutoClick != null) BotaoAdicionarProdutoClick(sender, produto);
+            if (BotaoAdicionarProdutoClick != null) BotaoAdicionarProdutoClick(sender, produto);
         }
     }
 }

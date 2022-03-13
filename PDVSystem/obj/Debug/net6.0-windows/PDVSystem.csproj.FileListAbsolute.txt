@@ -16,7 +16,6 @@ C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\obj\Debug\net6.0-windows\PD
 C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\obj\Debug\net6.0-windows\PDVSystem.genruntimeconfig.cache
 C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\obj\Debug\net6.0-windows\ref\PDVSystem.dll
 C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\obj\Debug\net6.0-windows\PDVSystem.frmPrincipal.resources
-C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\obj\Debug\net6.0-windows\PDVSystem.Componentes.ucPDV.resources
 C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\obj\Debug\net6.0-windows\PDVSystem.Componentes.PDV.ucPDVPedidoCliente.resources
 C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\obj\Debug\net6.0-windows\PDVSystem.Componentes.PDV.ucPDVProdutos.resources
 C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\obj\Debug\net6.0-windows\PDVSystem.Properties.Resources.resources
@@ -56,3 +55,4 @@ C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\bin\Debug\net6.0-windows\Re
 C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\bin\Debug\net6.0-windows\Recursos\users_gray.png
 C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\bin\Debug\net6.0-windows\Recursos\users_white.png
 C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\bin\Debug\net6.0-windows\Recursos\user_default.png
+C:\Users\Cristoffer\source\repos\PDVSystem\PDVSystem\obj\Debug\net6.0-windows\PDVSystem.Componentes.PDV.UcItemPedido.resources
